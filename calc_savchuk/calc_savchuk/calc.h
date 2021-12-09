@@ -13,5 +13,9 @@ public:
 	bool isLess(double x, double y);
 
 	bool isBigger(double x, double y);
+
+	bool isEqual(double x, double y);
+
+	bool isNotEqual(double x, double y);
 };
 

@@ -31,3 +31,11 @@ bool calc::isBigger(double x, double y)
 {
 	return x > y;
 }
+
+bool calc::isEqual(double x, double y) {
+	return x == y;
+}
+
+bool calc::isNotEqual(double x, double y) {
+	return x != y;
+}
