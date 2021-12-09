@@ -4,6 +4,7 @@ double add(double, double);
 double minus(double, double);
 double multiply(double, double);
 double divide(double, double);
+bool isLess(double, double);
 
 int main()
 {
@@ -27,4 +28,14 @@ double multiply(double x, double y)
 double divide(double x, double y)
 {
 	return x / y;
+}
+
+bool isLess(double x, double y)
+{
+	return x < y;
+}
+
+bool isBigger(double x, double y)
+{
+	return x > y;
 }
