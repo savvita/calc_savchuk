@@ -27,7 +27,9 @@ double multiply(double x, double y)
 
 double divide(double x, double y)
 {
-	return x / y;
+	if (y != 0)
+		return x / y;
+	return 0;
 }
 
 bool isLess(double x, double y)
