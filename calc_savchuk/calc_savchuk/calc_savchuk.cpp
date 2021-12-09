@@ -1,13 +1,21 @@
 ﻿#include <iostream>
+using std::cout;
 
 double add(double, double);
 double minus(double, double);
 double multiply(double, double);
 double divide(double, double);
 bool isLess(double, double);
+bool isBigger(double, double);
 
 int main()
 {
+	cout << add(2, 5) << " \n";
+	cout << minus(2, 5) << "\n";
+	cout << multiply(2, 5) << "\n";
+	cout << divide(2, 5) << "\n";
+	cout << isLess(2, 5) << "\n";
+	cout << isBigger(2, 5) << "\n";
 }
 
 double add(double x, double y)
